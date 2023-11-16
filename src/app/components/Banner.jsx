@@ -14,7 +14,7 @@ const Banner = () => {
                     transition={{ duration: 0.5 }}
                     className="place-self-center text-left justify-self-start"
                 >
-                    <h1 className="text-white mb-4 text-2xl sm:text-2xl md:text-2xl lg:text-6xl lg:leading-normal font-bold">
+                    <h1 className="text-white mb-4 text-2xl sm:text-2xl md:text-2xl lg:text-6xl lg:leading-normal font-semibold">
                         <br></br>
                         <TypeAnimation
                             sequence={[
