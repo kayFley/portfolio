@@ -39,20 +39,10 @@ const Banner = () => {
                     </p>
                     <div className="text-center lg:text-left xl:text-left">
                         <Link
-                            href="/contact"
-                            className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
-                        >
-                            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                                About
-                            </span>
-                        </Link>
-                        <Link
                             href="/"
-                            className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+                            className="p-1 inline-block w-full sm:w-fit rounded-full text-[#adb7be] hover:text-white mt-3"
                         >
-                            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                                Source code
-                            </span>
+                            <u>Source code</u>
                         </Link>
                     </div>
                 </motion.div>
