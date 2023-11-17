@@ -1,5 +1,5 @@
 {
-    "name": "portfolio-nextjs-js",
+    "name": "portfolio",
     "version": "0.1.0",
     "private": true,
     "homepage": "https://kayfley.github.io/portfolio/",
@@ -23,6 +23,7 @@
         "autoprefixer": "^10.0.1",
         "eslint": "^8",
         "eslint-config-next": "14.0.2",
+        "gh-pages": "^6.0.0",
         "postcss": "^8",
         "tailwindcss": "^3.3.0"
     }
