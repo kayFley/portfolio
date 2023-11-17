@@ -37,11 +37,11 @@ const TabData = [
             <ul className="list-disc pl-6 columns-3">
                 <li>Express</li>
                 <li>NestJS</li>
-                <li>Django</li>
                 <li>JWT</li>
                 <li>bcrypt</li>
                 <li>PostgreSQL</li>
                 <li>MongoDB</li>
+                <li>Django</li>
             </ul>
         ),
     },
