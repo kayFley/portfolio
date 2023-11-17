@@ -20,7 +20,7 @@ const navLinks = [
     },
     {
         title: "View site code",
-        path: "https://github.com/kayFley/portfolio-nextjs",
+        path: "https://github.com/kayFley/portfolio",
     },
 ];
 
