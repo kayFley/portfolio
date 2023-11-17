@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <section className="lg:py-16">
             <div className="grid grid-cols-1">
-                <h1 className=" text-slate-100 mb-4 text-3xl sm:text-2xl md:text-2xl lg:text-6xl lg:leading-normal font-semibold">
+                <h1 className=" text-slate-100 mb-4 text-2xl sm:text-2xl md:text-2xl lg:text-6xl lg:leading-normal font-semibold">
                     <br></br>
                     <TypeAnimation
                         sequence={[
