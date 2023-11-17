@@ -29,11 +29,11 @@ const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
-        <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-95">
+        <nav className="fixed mx-auto top-0 left-0 right-0 z-10 bg-[#121212] backdrop-blur shadow-xl shadow-[#121212] bg-blend-overlay bg-opacity-80 lg:bg-opacity-75">
             <div className="flex container lg:py-2 flex-wrap items-center justify-between mx-auto px-4 py-1">
                 <Link
                     href={"/"}
-                    className="text-2xl md:text-2xl text-white font-mono"
+                    className="text-2xl md:text-2xl text-slate-100 font-mono"
                 >
                     kayFley
                 </Link>
@@ -41,14 +41,14 @@ const Navbar = () => {
                     {!navbarOpen ? (
                         <button
                             onClick={() => setNavbarOpen(true)}
-                            className="flex items-center px-3 py-2 text-[#adb7be] hover:text-white"
+                            className="flex items-center px-3 py-2 text-slate-400 hover:text-slate-100"
                         >
                             <Bars3Icon className="h-8 w-8" />
                         </button>
                     ) : (
                         <button
                             onClick={() => setNavbarOpen(false)}
-                            className="flex items-center px-3 py-2 text-[#adb7be] hover:text-white"
+                            className="flex items-center px-3 py-2 text-slate-400 hover:text-slate-100"
                         >
                             <XMarkIcon className="h-8 w-8" />
                         </button>

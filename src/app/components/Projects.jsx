@@ -23,7 +23,7 @@ const projectsData = [
     },
     {
         id: 3,
-        title: "React Portfolio Website",
+        title: "Project 3",
         description: "Project 3 description",
         image: "/images/projects/3.png",
         gitUrl: "/",
@@ -31,7 +31,7 @@ const projectsData = [
     },
     {
         id: 4,
-        title: "React Portfolio Website",
+        title: "Project 4",
         description: "Project 4 description",
         image: "/images/projects/4.png",
         gitUrl: "/",
@@ -39,7 +39,7 @@ const projectsData = [
     },
     {
         id: 5,
-        title: "React Portfolio Website",
+        title: "Project 5",
         description: "Project 5 description",
         image: "/images/projects/5.png",
         gitUrl: "/",
@@ -47,7 +47,7 @@ const projectsData = [
     },
     {
         id: 6,
-        title: "React Portfolio Website",
+        title: "Project 6",
         description: "Project 6 description",
         image: "/images/projects/6.png",
         gitUrl: "/",
@@ -68,7 +68,7 @@ const Projects = () => {
 
     return (
         <section ref={ref} id="projects">
-            <h2 className="text-center text-2xl sm:text-2xl md:text-2xl lg:text-4xl font-semibold text-white mt-16 mb-8 md:mb-12">
+            <h2 className="text-center text-2xl sm:text-2xl md:text-2xl lg:text-4xl font-semibold text-slate-100 mt-16 mb-8 md:mb-12">
                 My Projects
             </h2>
             <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
@@ -78,7 +78,7 @@ const Projects = () => {
                         variants={cardVariants}
                         initial="initial"
                         animate={isInView ? "animate" : "initial"}
-                        transition={{ duration: 0.2, delay: index * 0.2 }}
+                        transition={{ duration: 0.4, delay: index * 0.3 }}
                     >
                         <ProjectCard
                             key={project.id}
