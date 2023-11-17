@@ -19,6 +19,10 @@ const navLinks = [
         title: "Contact",
         path: "#contact",
     },
+    {
+        title: "View site code",
+        path: "https://github.com/kayFley/portfolio-nextjs-tailwind-ts",
+    },
 ];
 
 const Navbar = () => {
