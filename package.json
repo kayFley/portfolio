@@ -2,8 +2,9 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://kayfley.github.io/portfolio/",
     "scripts": {
-        "dev": "next",
+        "dev": "next dev",
         "build": "next build",
         "start": "next start",
         "lint": "next lint"
@@ -11,7 +12,7 @@
     "dependencies": {
         "@heroicons/react": "^2.0.18",
         "framer-motion": "^10.16.5",
-        "next": "^14.0.2",
+        "next": "^14.0.3",
         "react": "^18",
         "react-dom": "^18",
         "react-type-animation": "^3.2.0",
